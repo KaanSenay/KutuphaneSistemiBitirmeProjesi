@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    android:id="@+id/homeDrawerLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OdalarActivity">
+
+    <!--<com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigationView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:menu="@menu/nav_menu"
+        android:fitsSystemWindows="true"/>-->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/rooms">
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="120dp"
+            android:layout_height="135dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="10dp"
+            android:onClick="oda2"
+            android:text="Room 2"
+            app:layout_constraintEnd_toStartOf="@+id/button6"
+            app:layout_constraintStart_toEndOf="@+id/button4"
+            app:layout_constraintTop_toBottomOf="@+id/textViewMasa" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="120dp"
+            android:layout_height="135dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="16dp"
+            android:onClick="oda3"
+            android:text="Room 3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewMasa" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="120dp"
+            android:layout_height="135dp"
+            android:layout_marginTop="57dp"
+            android:layout_marginEnd="16dp"
+            android:onClick="oda6"
+            android:text="Room 6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button6" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="120dp"
+            android:layout_height="135dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="25dp"
+            android:onClick="oda1"
+            android:text="Room 1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewMasa" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="120dp"
+            android:layout_height="135dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="57dp"
+            android:onClick="oda4"
+            android:text="Room 4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button4" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="120dp"
+            android:layout_height="135dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="57dp"
+            android:layout_marginEnd="10dp"
+            android:onClick="oda5"
+            android:text="Room 5"
+            app:layout_constraintEnd_toStartOf="@+id/button9"
+            app:layout_constraintStart_toEndOf="@+id/button7"
+            app:layout_constraintTop_toBottomOf="@+id/button5" />
+
+        <TextView
+            android:id="@+id/textViewMasa"
+            android:layout_width="376dp"
+            android:layout_height="126dp"
+            android:layout_marginTop="125dp"
+            android:gravity="bottom"
+            android:text="TextView"
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_navigation"
+            android:layout_gravity="bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:layout_alignParentBottom="true"
+            app:menu="@menu/bottom_menu" >
+
+        </com.google.android.material.bottomnavigation.BottomNavigationView>
+    </FrameLayout>
+
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

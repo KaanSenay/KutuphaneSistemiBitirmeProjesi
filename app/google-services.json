@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "193601081068",
+    "project_id": "randevusistemi-488d9",
+    "storage_bucket": "randevusistemi-488d9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:193601081068:android:8cb33be71847d63bd2dfc9",
+        "android_client_info": {
+          "package_name": "com.example.randevusistemi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzjs-NjWXP8OB6o4knjVk1NC_p4a9j4_g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

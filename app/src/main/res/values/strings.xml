@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Library App</string>
+    <string name="navigation_drawer_open">navigation drawer open\n</string>
+    <string name="navigation_drawer_close">navigation drawer close</string>
+</resources>

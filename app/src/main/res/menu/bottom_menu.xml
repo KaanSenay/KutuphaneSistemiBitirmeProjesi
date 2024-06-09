@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bottom_home"
+        android:icon="@drawable/baseline_home_24"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/bottom_rooms"
+        android:title="Rooms"
+        android:icon="@drawable/baseline_table_restaurant_24"/>
+
+    <item
+        android:id="@+id/bottom_pomodoro"
+        android:title="Pomodoro"
+        android:icon="@drawable/baseline_access_alarm_24"/>
+
+    <item
+        android:id="@+id/bottom_borrow"
+        android:title="Borrow Book"
+        android:icon="@drawable/baseline_menu_book_24"/>
+
+    <item
+        android:id="@+id/bottom_options"
+        android:title="Options"
+        android:icon="@drawable/baseline_settings_24"/>
+
+</menu>

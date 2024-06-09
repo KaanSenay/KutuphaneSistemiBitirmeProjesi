@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainApp6">
+
+    <Button
+        android:id="@+id/masa47"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="188dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/table_button_background"
+        android:text="Table 47"
+        app:layout_constraintBottom_toTopOf="@+id/masa50"
+        app:layout_constraintEnd_toStartOf="@+id/masa48"
+        app:layout_constraintStart_toEndOf="@+id/masa46"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/masa54"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="118dp"
+        android:background="@drawable/table_button_background"
+        android:text="Table 54"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/masa53"
+        app:layout_constraintTop_toBottomOf="@+id/masa51" />
+
+    <Button
+        android:id="@+id/masa51"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="65dp"
+        android:background="@drawable/table_button_background"
+        android:text="Table 51"
+        app:layout_constraintBottom_toTopOf="@+id/masa54"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/masa50"
+        app:layout_constraintTop_toBottomOf="@+id/masa48" />
+
+    <Button
+        android:id="@+id/masa52"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="118dp"
+        android:background="@drawable/table_button_background"
+        android:text="Table 52"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/masa53"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/masa49" />
+
+    <Button
+        android:id="@+id/masa50"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="65dp"
+        android:background="@drawable/table_button_background"
+        android:text="Table 50"
+        app:layout_constraintBottom_toTopOf="@+id/masa53"
+        app:layout_constraintEnd_toStartOf="@+id/masa51"
+        app:layout_constraintStart_toEndOf="@+id/masa49"
+        app:layout_constraintTop_toBottomOf="@+id/masa47" />
+
+    <Button
+        android:id="@+id/masa48"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="188dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/table_button_background"
+        android:text="Table 48"
+        app:layout_constraintBottom_toTopOf="@+id/masa51"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/masa47"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/masa46"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="188dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/table_button_background"
+        android:text="Table 46"
+        app:layout_constraintBottom_toTopOf="@+id/masa49"
+        app:layout_constraintEnd_toStartOf="@+id/masa47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/masa53"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="118dp"
+        android:background="@drawable/table_button_background"
+        android:text="Table 53"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/masa54"
+        app:layout_constraintStart_toEndOf="@+id/masa52"
+        app:layout_constraintTop_toBottomOf="@+id/masa50" />
+
+    <Button
+        android:id="@+id/masa49"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="65dp"
+        android:background="@drawable/table_button_background"
+        android:text="Table 49"
+        app:layout_constraintBottom_toTopOf="@+id/masa52"
+        app:layout_constraintEnd_toStartOf="@+id/masa50"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/masa46" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

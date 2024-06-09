@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="@drawable/border">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kitap Başlığı"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/dueDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Son Teslim Tarihi"
+        android:textSize="14sp"
+        android:textColor="#888888"/>
+
+    <TextView
+        android:id="@+id/penalty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Borç"
+        android:textSize="14sp"
+        android:textColor="#ff0000"/>
+
+</LinearLayout>
